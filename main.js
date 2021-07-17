@@ -5,10 +5,10 @@ let ctx = canvas.getContext("2d");
 // DOM ELEMENTS
 let splashScreen = document.querySelector("#splash-screen");
 let gameOverScreen = document.querySelector("#gameover-screen");
-let gameWinScreen = document.querySelector("#gamewin-screen")
+let gameWinScreen = document.querySelector("#gamewin-screen");
 let startButton = document.querySelector("#start-btn");
 let restartButton = document.querySelector("#restart-btn");
-let playAgainButton = document.querySelector("#playagain-btn")
+let playAgainButton = document.querySelector("#playagain-btn");
 let scoreTimer = document.querySelector("#score");
 
 // main game global variable;
@@ -26,16 +26,16 @@ startButton.addEventListener("click", () => {
 });
 
 restartButton.addEventListener("click", () => {
-        // show canvas DOM element on button click
-        canvas.style.display = "block"
-        // hide splash screen DOM element
-        gameWinScreen.style.dsplay = "none";
-        gameOverScreen.style.display = "none";
+  // show canvas DOM element on button click
+  canvas.style.display = "block";
+  // hide splash screen DOM element
+  gameWinScreen.style.dsplay = "none";
+  gameOverScreen.style.display = "none";
 
-        gameObj = new Game() // game will have all properties and methods of game class!
-        gameObj.gameLoop()
-        // here we need to start the game after creating the object
-})
+  gameObj = new Game(); // game will have all properties and methods of game class!
+  gameObj.gameLoop();
+  // here we need to start the game after creating the object
+});
 
 playAgainButton.addEventListener("click", () => {
   // show canvas DOM element on button click
@@ -47,10 +47,6 @@ playAgainButton.addEventListener("click", () => {
   gameObj.gameLoop();
   // here we need to start the game after creating the object
 });
-
-
-
-
 
 window.addEventListener("keydown", (event) => {
   if (event.code === "ArrowRight") {
