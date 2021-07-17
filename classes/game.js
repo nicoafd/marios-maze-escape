@@ -8,10 +8,13 @@ class Game {
     };
     this.gameAudio = new Audio();
     this.gameAudio.src = "./sounds/gameaudio.mp3"
+    this.gameAudio.volume = 0.1
     this.wastedAudio = new Audio();
     this.wastedAudio.src = "./sounds/wasted_sfx.mp3";
+    this.wastedAudio.volume = 0.1
     this.gameWinAudio = new Audio();
     this.gameWinAudio.src = "./sounds/missionpassed_sfx.mp3"
+    this.gameWinAudio.volume = 0.1
     this.isGameOn = true;
     this.labyrinth = [
       [1, 0, 0, 0, 1, 1, 1, 1, 1, 1], // y = 0 * 80 = 0
