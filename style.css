@@ -1,58 +1,58 @@
 body {
-  background-color: lightskyblue
+  background-color: lightskyblue;
 }
 #my-canvas {
-    background-color: lightgray;
-  }
-  
-  #start-btn, #restart-btn, #playagain-btn {
-    background-color: darkcyan;
-    color: white;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 40px
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  background-color: lightgray;
+}
 
-    #waves {
-      position: relative;
-      top: 0;
-      left: 0;
-    }
+#start-btn,
+#restart-btn,
+#playagain-btn {
+  background-color: darkcyan;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 40px;
+}
 
-    .game-logo {
-      position: absolute;
-      top: 100px;
-      left: 468px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    }
+#waves {
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
-    .wasted {
-      position: absolute;
-      top: 100px;
-      left: 580px;
+.game-logo {
+  position: absolute;
+  top: 100px;
+  left: 468px;
+}
 
-    }
-  
-  #my-canvas {
-    display: none
-  }
-  
-  #gameover-screen {
-    display: none
-  }
+.wasted {
+  position: absolute;
+  top: 100px;
+  left: 580px;
+}
 
-  #gamewin-screen {
-    display: none
-  }
+.respect {
+  position: absolute;
+  top: 100px;
+  left: 420px;
+}
 
+#my-canvas {
+  display: none;
+}
 
+#gameover-screen {
+  display: none;
+}
 
-
-
-  
+#gamewin-screen {
+  display: none;
+}
