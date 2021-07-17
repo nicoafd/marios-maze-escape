@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maze Surfers!</title>
+  <!-- Stylesheets linked here -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+
+    <div class="container">
+        <h3>Timer: <span id="score"></span></h3>
+
+    </div>
+
+    <!-- Splash screen -->
+    <div id="splash-screen" class="container">
+      <img id="waves" src="./images/wave_background.gif" width="500" alt="logo">
+      <img class="game-logo" src="https://fontmeme.com/permalink/210717/091fd84febd2f214748fded80f4dc54e.png"/>
+      <button id="start-btn">Start!</button>
+    </div>
+    
+    <!-- Canvas -->
+    <canvas id="my-canvas" width="600" height="600"></canvas>
+
+    <!-- Game over screen -->
+    <div id="gameover-screen" class="container">
+      <img id="waves" src="./images/wave_background.gif" width="500" alt="logo">
+       <img class="wasted" src="https://fontmeme.com/permalink/210714/1a332df8a8f33dfc77285bf62de6fed8.png"/>
+      <button id="restart-btn">Play Again!</button>
+    </div>
+
+    <!-- Game Win Screen-->
+    <div id="gamewin-screen" class="container">
+      <img id="waves" src="./images/wave_background.gif" width="500" alt="logo">
+       <img class="wasted" src="https://fontmeme.com/permalink/210715/cee57a19be78f772a02928727ac354be.png"/>
+      <button id="playagain-btn">Play Again!</button>
+    </div>
+
+  </div>
+
+  <!-- Scripts linked here -->
+  <script src="main.js"></script>
+  <script src="/classes/game.js"></script>
+  <script src="/classes/bush.js"></script>
+  <script src="classes/surfer.js"></script>
+  
+</body>
+</html>

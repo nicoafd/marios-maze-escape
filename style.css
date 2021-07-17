@@ -1,0 +1,58 @@
+body {
+  background-color: lightskyblue
+}
+#my-canvas {
+    background-color: lightgray;
+  }
+  
+  #start-btn, #restart-btn, #playagain-btn {
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    #waves {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+    .game-logo {
+      position: absolute;
+      top: 100px;
+      left: 468px;
+
+    }
+
+    .wasted {
+      position: absolute;
+      top: 100px;
+      left: 580px;
+
+    }
+  
+  #my-canvas {
+    display: none
+  }
+  
+  #gameover-screen {
+    display: none
+  }
+
+  #gamewin-screen {
+    display: none
+  }
+
+
+
+
+
+  
