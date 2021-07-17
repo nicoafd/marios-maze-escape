@@ -1,17 +1,17 @@
 class Game {
   constructor() {
     this.bg = new Image();
-    this.bg.src = "/images/map2_bowser.png";
+    this.bg.src = "./images/map2_bowser.png";
     this.canvas = {
       height: 600,
       width: 600,
     };
     this.gameAudio = new Audio();
-    this.gameAudio.src = "/sounds/gameaudio.mp3"
+    this.gameAudio.src = "./sounds/gameaudio.mp3"
     this.wastedAudio = new Audio();
-    this.wastedAudio.src = "/sounds/wasted_sfx.mp3";
+    this.wastedAudio.src = "./sounds/wasted_sfx.mp3";
     this.gameWinAudio = new Audio();
-    this.gameWinAudio.src = "/sounds/missionpassed_sfx.mp3"
+    this.gameWinAudio.src = "./sounds/missionpassed_sfx.mp3"
     this.isGameOn = true;
     this.labyrinth = [
       [1, 0, 0, 0, 1, 1, 1, 1, 1, 1], // y = 0 * 80 = 0

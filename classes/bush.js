@@ -1,12 +1,9 @@
 class Thwomp {
-    constructor(){
-        this.image = new Image()
-        this.image.src = "/images/thwomp.gif"
-    }
-    
+  constructor() {
+    this.image = new Image();
+    this.image.src = "./images/thwomp.gif";
+  }
 }
-
-
 
 // (function () {
 //   var buffer, context, drawMap, map, size;

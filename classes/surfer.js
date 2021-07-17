@@ -5,7 +5,7 @@ class Surfer {
     this.width = 40;
     this.height = 40;
     this.image = new Image();
-    this.image.src = "/images/pikachu-player.png";
+    this.image.src = "./images/pikachu-player.png";
     this.speedX = 0;
     this.speedY = 0;
     this.game = game;
